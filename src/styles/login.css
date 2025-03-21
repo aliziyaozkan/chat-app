@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Boldonse&family=Caveat:wght@400..700&family=Cinzel+Decorative:wght@400;700;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+.login-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    margin-left: 35%;
+    background-color: rgb(245, 238, 228);
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0, 0.5);
+}
+
+.login-input {
+    width: 80%;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 700;
+
+}
+
+.login-input::placeholder {
+    color: rgb(86, 85, 85);
+
+    font-weight: 700;
+}
+
+.login-btn {
+    background-color: #bd6767;
+    width: 100px;
+    height: 28px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #df8e8e;
+}
+
+.register-btn {
+    background-color: #bd6767;
+    width: 100px;
+    height: 28px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
+}
+
+.register-btn:hover {
+    background-color: #df8e8e;
+
+}
+
+.google-button {
+    background-color: white;
+    border: 2px solid gray;
+    outline: none;
+    height: 28px;
+    border-radius: 11px;
+    width: 80%;
+    margin: 10px;
+    font-weight: 700;
+    color: rgb(72, 70, 70);
+    align-items: center;
+}
+
+.facebook-button {
+    background-color: white;
+    border: 2px solid gray;
+    outline: none;
+    height: 28px;
+    border-radius: 11px;
+    width: 80%;
+    margin: 10px;
+    font-weight: 700;
+    color: rgb(72, 70, 70);
+
+}
+
+.google-button:hover,
+.facebook-button:hover {
+    background-color: rgb(233, 230, 230);
+
+}
